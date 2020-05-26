@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name DC-Supply-170V-v1-rescue)(type Legacy)(uri ${KIPRJMOD}/DC-Supply-170V-v1-rescue.lib)(options "")(descr ""))
+  (lib (name MAX17595_offline_20V_supply_v3-rescue)(type Legacy)(uri C:/Users/ray/OneDrive/Projects/kicad/MAX17595_offline_20V_supply_v3/MAX17595_offline_20V_supply_v3-rescue.lib)(options "")(descr ""))
+  (lib (name lab-supply-buck-only-rescue)(type Legacy)(uri ${KIPRJMOD}/lab-supply-buck-only-rescue.lib)(options "")(descr ""))
+)
