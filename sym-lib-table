@@ -1,5 +1,8 @@
 (sym_lib_table
-  (lib (name DC-Supply-170V-v1-rescue)(type Legacy)(uri ${KIPRJMOD}/DC-Supply-170V-v1-rescue.lib)(options "")(descr ""))
-  (lib (name MAX17595_offline_20V_supply_v3-rescue)(type Legacy)(uri C:/Users/ray/OneDrive/Projects/kicad/MAX17595_offline_20V_supply_v3/MAX17595_offline_20V_supply_v3-rescue.lib)(options "")(descr ""))
-  (lib (name lab-supply-buck-only-rescue)(type Legacy)(uri ${KIPRJMOD}/lab-supply-buck-only-rescue.lib)(options "")(descr ""))
+  (lib (name conn)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/connector.lib)(options "")(descr ""))
+  (lib (name transistors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/transistor_bjt.lib)(options "")(descr ""))
+  (lib (name atmel)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_Atmega.lib)(options "")(descr ""))
+  (lib (name memory)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/memory_eeprom.lib)(options "")(descr ""))
+  (lib (name lab-supply-control-board-rescue)(type Legacy)(uri ${KIPRJMOD}/lab-supply-control-board-rescue.lib)(options "")(descr ""))
+  (lib (name KnoxMakers)(type Legacy)(uri C:/Users/ray/OneDrive/Projects/kicad/1-Symbols/KnoxMakers.lib)(options "")(descr ""))
 )

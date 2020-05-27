@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# AD5664-AD5664-sig_gen_digital_v3-rescue-sig_gen_digital_v4-rescue
+#
+DEF AD5664-AD5664-sig_gen_digital_v3-rescue-sig_gen_digital_v4-rescue U 0 40 Y Y 1 F N
+F0 "U" 100 -750 50 H V C CNN
+F1 "AD5664-AD5664-sig_gen_digital_v3-rescue-sig_gen_digital_v4-rescue" 750 -750 50 H V C CNN
+F2 "" 0 -150 50 H I C CNN
+F3 "" 0 -150 50 H I C CNN
+DRAW
+S 0 100 900 -700 0 1 0 N
+X VoutA 1 1000 -150 100 L 50 50 1 1 P
+X VREF 10 550 200 100 D 50 50 1 1 P
+X VoutB 2 1000 -250 100 L 50 50 1 1 P
+X GND 3 450 -800 100 U 50 50 1 1 P
+X VoutC 4 1000 -350 100 L 50 50 1 1 P
+X VoutD 5 1000 -450 100 L 50 50 1 1 P
+X /SYNC 6 -100 -300 100 R 50 50 1 1 P
+X SCLK 7 -100 -200 100 R 50 50 1 1 P
+X DIN 8 -100 -400 100 R 50 50 1 1 P
+X VDD 9 350 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
