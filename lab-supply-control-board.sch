@@ -1393,12 +1393,12 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x04_Male J8
 U 1 1 5EFA5054
-P 9550 8300
-F 0 "J8" H 9800 8650 50  0000 R CNN
-F 1 "1x04 JST" H 10000 8550 50  0000 R CNN
-F 2 "Connectors_JST:JST_XH_B05B-XH-A_04x2.50mm_Straight" H 9550 8300 50  0001 C CNN
-F 3 "B5B-XH-A(LF)(SN)" H 9550 8300 50  0001 C CNN
-	1    9550 8300
+P 9050 8250
+F 0 "J8" H 9300 8600 50  0000 R CNN
+F 1 "1x04 JST" H 9500 8500 50  0000 R CNN
+F 2 "Connectors_JST:JST_XH_B05B-XH-A_04x2.50mm_Straight" H 9050 8250 50  0001 C CNN
+F 3 "B5B-XH-A(LF)(SN)" H 9050 8250 50  0001 C CNN
+	1    9050 8250
 	1    0    0    -1  
 $EndComp
 Text GLabel 3150 2000 2    60   Input ~ 0
@@ -1413,20 +1413,20 @@ Wire Wire Line
 	3100 1900 3150 1900
 Wire Wire Line
 	3100 2000 3150 2000
-Text GLabel 9800 8500 2    60   Input ~ 0
+Text GLabel 9300 8450 2    60   Input ~ 0
 SCK
-Text GLabel 9800 8400 2    60   Input ~ 0
+Text GLabel 9300 8350 2    60   Input ~ 0
 MISO
-Text GLabel 9800 8300 2    60   Input ~ 0
+Text GLabel 9300 8250 2    60   Input ~ 0
 MOSI
 Wire Wire Line
-	9750 8200 9800 8200
+	9250 8150 9300 8150
 Wire Wire Line
-	9800 8300 9750 8300
+	9300 8250 9250 8250
 Wire Wire Line
-	9750 8400 9800 8400
+	9250 8350 9300 8350
 Wire Wire Line
-	9800 8500 9750 8500
+	9300 8450 9250 8450
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5ECF622B
@@ -1551,7 +1551,7 @@ Wire Notes Line
 	11350 3250 11350 550 
 Wire Notes Line
 	11350 550  15350 550 
-Text Notes 9550 7800 0    59   ~ 0
+Text Notes 9050 7750 0    59   ~ 0
   SPI Port\n(Expansion)
 Wire Wire Line
 	9100 9650 9100 9500
@@ -1657,41 +1657,41 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x04_Male J?
 U 1 1 5F5CB5DA
-P 10450 8300
-F 0 "J?" H 10700 8650 50  0000 R CNN
-F 1 "1x04 JST" H 10900 8550 50  0000 R CNN
-F 2 "Connectors_JST:JST_XH_B05B-XH-A_04x2.50mm_Straight" H 10450 8300 50  0001 C CNN
-F 3 "B5B-XH-A(LF)(SN)" H 10450 8300 50  0001 C CNN
-	1    10450 8300
+P 9950 8250
+F 0 "J?" H 10200 8600 50  0000 R CNN
+F 1 "1x04 JST" H 10400 8500 50  0000 R CNN
+F 2 "Connectors_JST:JST_XH_B05B-XH-A_04x2.50mm_Straight" H 9950 8250 50  0001 C CNN
+F 3 "B5B-XH-A(LF)(SN)" H 9950 8250 50  0001 C CNN
+	1    9950 8250
 	1    0    0    -1  
 $EndComp
-Text GLabel 10750 8400 2    50   Input ~ 0
+Text GLabel 10250 8350 2    50   Input ~ 0
 SDA
-Text GLabel 10750 8300 2    50   Input ~ 0
+Text GLabel 10250 8250 2    50   Input ~ 0
 SCL
-Text GLabel 10750 8200 2    50   Input ~ 0
+Text GLabel 10250 8150 2    50   Input ~ 0
 +5V
 $Comp
 L power:GND #PWR?
 U 1 1 5F5DF6E0
-P 10750 8550
-F 0 "#PWR?" H 10750 8300 50  0001 C CNN
-F 1 "GND" H 10755 8377 50  0001 C CNN
-F 2 "" H 10750 8550 50  0001 C CNN
-F 3 "" H 10750 8550 50  0001 C CNN
-	1    10750 8550
+P 10250 8500
+F 0 "#PWR?" H 10250 8250 50  0001 C CNN
+F 1 "GND" H 10255 8327 50  0001 C CNN
+F 2 "" H 10250 8500 50  0001 C CNN
+F 3 "" H 10250 8500 50  0001 C CNN
+	1    10250 8500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10650 8200 10750 8200
+	10150 8150 10250 8150
 Wire Wire Line
-	10750 8300 10650 8300
+	10250 8250 10150 8250
 Wire Wire Line
-	10650 8400 10750 8400
+	10150 8350 10250 8350
 Wire Wire Line
-	10650 8500 10750 8500
+	10150 8450 10250 8450
 Wire Wire Line
-	10750 8500 10750 8550
+	10250 8450 10250 8500
 $Comp
 L Connector_Generic:Conn_01x07 J?
 U 1 1 5F41A16B
@@ -1703,7 +1703,7 @@ F 3 "" H 8700 6350 50  0001 C CNN
 	1    8500 6350
 	1    0    0    -1  
 $EndComp
-Text Notes 10400 7800 0    59   ~ 0
+Text Notes 9900 7750 0    59   ~ 0
   I2C Port\n(Expansion)
 Text GLabel 8300 7650 0    50   Input ~ 0
 +5V
@@ -1795,10 +1795,6 @@ TS_IRQ
 Text GLabel 3600 1600 2    50   Input ~ 0
 TS_CS
 Wire Wire Line
-	3100 1500 3600 1500
-Wire Wire Line
-	3100 1600 3600 1600
-Wire Wire Line
 	3100 1700 3350 1700
 Wire Wire Line
 	3100 2400 3550 2400
@@ -1824,7 +1820,7 @@ Wire Wire Line
 	3350 3900 3350 4600
 Wire Wire Line
 	3350 4600 3450 4600
-Text GLabel 9800 8200 2    50   Input ~ 0
+Text GLabel 9300 8150 2    50   Input ~ 0
 TS_CS
 Wire Wire Line
 	3100 3200 4150 3200
@@ -2223,4 +2219,50 @@ Text GLabel 12350 8000 0    50   Input ~ 0
 MISO
 Text GLabel 12350 8100 0    50   Input ~ 0
 SCK
+Text GLabel 4000 1500 2    50   Input ~ 0
+PBO0_IO
+Text GLabel 4000 1600 2    50   Input ~ 0
+PB1_IO
+Wire Wire Line
+	3100 1500 4000 1500
+Wire Wire Line
+	3100 1600 4000 1600
+Text GLabel 11200 8250 2    50   Input ~ 0
+PBO0_IO
+Text GLabel 11200 8350 2    50   Input ~ 0
+PB1_IO
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5EDC6A75
+P 10900 8250
+F 0 "J?" H 10750 7500 50  0000 L CNN
+F 1 "0.1\" Header" H 10550 7400 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 11100 8250 50  0001 C CNN
+F 3 "" H 11100 8250 50  0001 C CNN
+	1    10900 8250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 8250 11100 8250
+$Comp
+L power:GND #PWR?
+U 1 1 5EE30B57
+P 11150 8500
+F 0 "#PWR?" H 11150 8250 50  0001 C CNN
+F 1 "GND" H 11155 8327 50  0001 C CNN
+F 2 "" H 11150 8500 50  0001 C CNN
+F 3 "" H 11150 8500 50  0001 C CNN
+	1    11150 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 8500 11150 8450
+Wire Wire Line
+	11150 8450 11100 8450
+Wire Wire Line
+	11100 8350 11200 8350
+Text GLabel 11200 8150 2    50   Input ~ 0
++5V
+Wire Wire Line
+	11200 8150 11100 8150
 $EndSCHEMATC

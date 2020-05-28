@@ -2217,10 +2217,10 @@ Text GLabel 12350 8450 0    50   Input ~ 0
 MISO_3.3
 Text GLabel 12350 8550 0    50   Input ~ 0
 SCK_3.3
-Text GLabel 12250 7950 0    50   Input ~ 0
+Text GLabel 12350 7900 0    50   Input ~ 0
 MOSI
-Text GLabel 12250 8050 0    50   Input ~ 0
+Text GLabel 12350 8000 0    50   Input ~ 0
 MISO
-Text GLabel 12250 8150 0    50   Input ~ 0
+Text GLabel 12350 8100 0    50   Input ~ 0
 SCK
 $EndSCHEMATC
