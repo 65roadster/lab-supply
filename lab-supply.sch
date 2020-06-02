@@ -24,7 +24,7 @@ F 3 "https://www.digikey.com/product-detail/en/bourns-inc/CRL2512-JW-R100ELF/CRL
 	1    6550 2500
 	0    1    1    0   
 $EndComp
-Text GLabel 7050 1700 2    50   Input ~ 0
+Text GLabel 6650 1500 2    50   Input ~ 0
 BB_IOUT
 Text Notes 5600 4100 0    79   ~ 0
 -5V for minimum load
@@ -104,42 +104,21 @@ F 3 "" H 7350 5200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7350 5200 7350 5150
-Text GLabel 5850 1500 0    50   Input ~ 0
+Text GLabel 5950 1850 0    50   Input ~ 0
 +5V
-$Comp
-L power:GND #PWR0115
-U 1 1 5EEECEBC
-P 6550 1250
-F 0 "#PWR0115" H 6550 1000 50  0001 C CNN
-F 1 "GND" H 6555 1077 50  0001 C CNN
-F 2 "" H 6550 1250 50  0001 C CNN
-F 3 "" H 6550 1250 50  0001 C CNN
-	1    6550 1250
-	-1   0    0    1   
-$EndComp
 $Comp
 L Amplifier_Current:AD8208 U2
 U 1 1 5EEF2A9E
-P 6550 1700
-F 0 "U2" H 6700 1200 50  0000 C CNN
-F 1 "AD8208" H 6800 1300 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6600 1350 50  0001 L CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8208.pdf" H 7200 1000 50  0001 C CNN
-	1    6550 1700
+P 8050 400
+F 0 "U2" H 8200 -100 50  0000 C CNN
+F 1 "AD8208" H 8300 0   50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8100 50  50  0001 L CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8208.pdf" H 8700 -300 50  0001 C CNN
+	1    8050 400 
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	6550 1250 6550 1300
-Wire Wire Line
-	7050 1700 7000 1700
 Text Notes 7100 1450 0    79   ~ 0
-Gain = 20V/V\nBB_IOUT = Iout x 3.0\n1.5A = 4.5V
-Wire Wire Line
-	6150 1600 6100 1600
-Wire Wire Line
-	6100 1600 6100 1700
-Wire Wire Line
-	6100 1700 6150 1700
+Gain = 20V/V\nBB_IOUT = Iout x 2.0\n1.5A = 3.0V
 $Comp
 L Rays_Symbols:MP8862GQ U1
 U 1 1 5EF22AAD
@@ -616,36 +595,31 @@ Wire Wire Line
 Wire Wire Line
 	2550 5200 2450 5200
 Wire Wire Line
-	5950 1850 5950 1900
+	6100 2200 6100 2250
 $Comp
 L power:GND #PWR0105
 U 1 1 5F4919A4
-P 5950 1900
-F 0 "#PWR0105" H 5950 1650 50  0001 C CNN
-F 1 "GND" H 5955 1727 50  0001 C CNN
-F 2 "" H 5950 1900 50  0001 C CNN
-F 3 "" H 5950 1900 50  0001 C CNN
-	1    5950 1900
+P 6100 2250
+F 0 "#PWR0105" H 6100 2000 50  0001 C CNN
+F 1 "GND" H 6105 2077 50  0001 C CNN
+F 2 "" H 6100 2250 50  0001 C CNN
+F 3 "" H 6100 2250 50  0001 C CNN
+	1    6100 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C9
 U 1 1 5F4919AF
-P 5950 1750
-F 0 "C9" H 6150 1700 50  0000 C CNN
-F 1 "0.1u" H 6150 1800 50  0000 C CNN
-F 2 "Rays Footprints:C_0603_HandSoldering" H 5950 1750 50  0001 C CNN
-F 3 "~" H 5950 1750 50  0001 C CNN
-	1    5950 1750
+P 6100 2100
+F 0 "C9" H 6300 2050 50  0000 C CNN
+F 1 "0.1u" H 6300 2150 50  0000 C CNN
+F 2 "Rays Footprints:C_0603_HandSoldering" H 6100 2100 50  0001 C CNN
+F 3 "~" H 6100 2100 50  0001 C CNN
+	1    6100 2100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5850 1500 5950 1500
-Wire Wire Line
-	5950 1500 5950 1650
-Connection ~ 5950 1500
-Wire Wire Line
-	5950 1500 6150 1500
+	6100 1850 6100 2000
 Text GLabel 2450 4900 0    50   Input ~ 0
 BB_IOUT
 Wire Wire Line
@@ -835,10 +809,6 @@ Connection ~ 5500 2500
 Wire Wire Line
 	5500 2500 5900 2500
 Connection ~ 5900 2500
-Wire Wire Line
-	6350 2100 6350 2500
-Wire Wire Line
-	6750 2100 6750 2500
 Wire Wire Line
 	5900 2500 6350 2500
 Connection ~ 6350 2500
@@ -1055,29 +1025,6 @@ F 3 "" H 8100 2200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8100 2200 8100 2250
-$Comp
-L Device:R_US R6
-U 1 1 5EDB07AF
-P 6550 1000
-F 0 "R6" V 6500 800 50  0000 C CNN
-F 1 "300k" V 6500 1150 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 6590 990 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/bourns-inc/CRL2512-JW-R100ELF/CRL2512-JW-R100ELFCT-ND/5775016" H 6550 1000 50  0001 C CNN
-	1    6550 1000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6400 1000 6100 1000
-Wire Wire Line
-	6100 1000 6100 1600
-Connection ~ 6100 1600
-Wire Wire Line
-	6700 1000 7000 1000
-Wire Wire Line
-	7000 1000 7000 1700
-Connection ~ 7000 1700
-Wire Wire Line
-	7000 1700 6950 1700
 Text Notes 8700 4100 1    79   ~ 0
 <----\n5mA min load
 $Comp
@@ -1113,4 +1060,68 @@ F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/TMK325B7226MM-PR/587-
 	1    5900 2650
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Amplifier_Current:INA181 U?
+U 1 1 5ED63FC9
+P 6550 2050
+F 0 "U?" V 6900 1900 50  0000 C CNN
+F 1 "INA181" V 6800 1850 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 6600 2100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/texas-instruments/INA181A1IDBVR/296-47656-1-ND/8133025" H 6700 2200 50  0001 C CNN
+	1    6550 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED64732
+P 6900 2200
+F 0 "#PWR?" H 6900 1950 50  0001 C CNN
+F 1 "GND" H 6905 2027 50  0001 C CNN
+F 2 "" H 6900 2200 50  0001 C CNN
+F 3 "" H 6900 2200 50  0001 C CNN
+	1    6900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1850 6100 1850
+Wire Wire Line
+	6900 2200 6900 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5EDA5247
+P 6900 2000
+F 0 "#PWR?" H 6900 1750 50  0001 C CNN
+F 1 "GND" H 6905 1827 50  0001 C CNN
+F 2 "" H 6900 2000 50  0001 C CNN
+F 3 "" H 6900 2000 50  0001 C CNN
+	1    6900 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2000 6900 1950
+Wire Wire Line
+	6900 1950 6850 1950
+Wire Wire Line
+	6900 2150 6850 2150
+Wire Wire Line
+	6450 2350 6450 2400
+Wire Wire Line
+	6450 2400 6350 2400
+Wire Wire Line
+	6350 2400 6350 2500
+Wire Wire Line
+	6650 2350 6650 2400
+Wire Wire Line
+	6650 2400 6750 2400
+Wire Wire Line
+	6750 2400 6750 2500
+Wire Wire Line
+	6100 1850 6250 1850
+Wire Wire Line
+	6250 1850 6250 2150
+Connection ~ 6100 1850
+Wire Wire Line
+	6550 1500 6650 1500
+Wire Wire Line
+	6550 1500 6550 1750
 $EndSCHEMATC

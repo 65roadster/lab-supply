@@ -13,92 +13,90 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 13350 9750 2    50   Input ~ 0
+Text GLabel 13350 9650 2    50   Input ~ 0
 ADC2
-Text GLabel 13350 9850 2    50   Input ~ 0
+Text GLabel 13350 9750 2    50   Input ~ 0
 ADC1
-Text GLabel 13350 9950 2    50   Input ~ 0
+Text GLabel 13350 9850 2    50   Input ~ 0
 ADC0
 Text Notes 12850 9300 0    79   ~ 0
 Voltage Probes
-Text GLabel 13350 9650 2    50   Input ~ 0
-ADC3
 $Comp
 L Rays_Symbols:MCP4716AxT-ECH U1
 U 1 1 5ED30D05
-P 13150 2150
-F 0 "U1" H 12473 2196 50  0000 R CNN
-F 1 "MCP4716AxT-ECH" H 12473 2105 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 13150 2150 50  0001 C CNN
-F 3 "" H 13150 2150 50  0001 C CNN
-	1    13150 2150
+P 8950 2350
+F 0 "U1" H 8273 2396 50  0000 R CNN
+F 1 "MCP4716AxT-ECH" H 8273 2305 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 8950 2350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/microchip-technology/MCP4716A3T-E-CH/MCP4716A3T-E-CHCT-ND/9642943" H 8950 2350 50  0001 C CNN
+	1    8950 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Rays_Symbols:MCP4716AxT-ECH U5
 U 1 1 5ED30D07
-P 13150 3400
-F 0 "U5" H 12473 3446 50  0000 R CNN
-F 1 "MCP4716AxT-ECH" H 12473 3355 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 13150 3400 50  0001 C CNN
-F 3 "" H 13150 3400 50  0001 C CNN
-	1    13150 3400
+P 8950 3600
+F 0 "U5" H 8273 3646 50  0000 R CNN
+F 1 "MCP4716AxT-ECH" H 8273 3555 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 8950 3600 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/microchip-technology/MCP4716A3T-E-CH/MCP4716A3T-E-CHCT-ND/9642943" H 8950 3600 50  0001 C CNN
+	1    8950 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 13550 2850 2    50   Input ~ 0
+Text GLabel 9350 3050 2    50   Input ~ 0
 +5V
-Text GLabel 13550 1600 2    50   Input ~ 0
+Text GLabel 9350 1800 2    50   Input ~ 0
 +5V
 $Comp
 L power:GND #PWR08
 U 1 1 5ED30D0A
-P 12900 2500
-F 0 "#PWR08" H 12900 2250 50  0001 C CNN
-F 1 "GND" H 12905 2327 50  0001 C CNN
-F 2 "" H 12900 2500 50  0001 C CNN
-F 3 "" H 12900 2500 50  0001 C CNN
-	1    12900 2500
+P 8700 2700
+F 0 "#PWR08" H 8700 2450 50  0001 C CNN
+F 1 "GND" H 8705 2527 50  0001 C CNN
+F 2 "" H 8700 2700 50  0001 C CNN
+F 3 "" H 8700 2700 50  0001 C CNN
+	1    8700 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12900 2500 12900 2450
+	8700 2700 8700 2650
 $Comp
 L power:GND #PWR016
 U 1 1 5ED30D0B
-P 12900 3750
-F 0 "#PWR016" H 12900 3500 50  0001 C CNN
-F 1 "GND" H 12905 3577 50  0001 C CNN
-F 2 "" H 12900 3750 50  0001 C CNN
-F 3 "" H 12900 3750 50  0001 C CNN
-	1    12900 3750
+P 8700 3950
+F 0 "#PWR016" H 8700 3700 50  0001 C CNN
+F 1 "GND" H 8705 3777 50  0001 C CNN
+F 2 "" H 8700 3950 50  0001 C CNN
+F 3 "" H 8700 3950 50  0001 C CNN
+	1    8700 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12900 3750 12900 3700
-Text GLabel 12500 3850 0    50   Input ~ 0
+	8700 3950 8700 3900
+Text GLabel 8300 4050 0    50   Input ~ 0
 SCL
-Text GLabel 12500 3750 0    50   Input ~ 0
+Text GLabel 8300 3950 0    50   Input ~ 0
 SDA
 Wire Wire Line
-	12500 3750 12600 3750
+	8300 3950 8400 3950
 Wire Wire Line
-	12600 3750 12600 3700
+	8400 3950 8400 3900
 Wire Wire Line
-	12500 3850 12700 3850
+	8300 4050 8500 4050
 Wire Wire Line
-	12700 3850 12700 3700
-Text GLabel 12500 2600 0    50   Input ~ 0
+	8500 4050 8500 3900
+Text GLabel 8300 2800 0    50   Input ~ 0
 SCL
-Text GLabel 12500 2500 0    50   Input ~ 0
+Text GLabel 8300 2700 0    50   Input ~ 0
 SDA
 Wire Wire Line
-	12500 2500 12600 2500
+	8300 2700 8400 2700
 Wire Wire Line
-	12600 2500 12600 2450
+	8400 2700 8400 2650
 Wire Wire Line
-	12700 2450 12700 2600
+	8500 2650 8500 2800
 Wire Wire Line
-	12700 2600 12500 2600
+	8500 2800 8300 2800
 $Comp
 L Connector_Generic:Conn_01x01 MTH4
 U 1 1 5ECA8140
@@ -144,120 +142,109 @@ F 3 "" H 6600 9300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13400 1850 13400 1900
+	9200 2050 9200 2100
 $Comp
 L power:GND #PWR05
 U 1 1 5F3B9A4E
-P 13400 1900
-F 0 "#PWR05" H 13400 1650 50  0001 C CNN
-F 1 "GND" H 13405 1727 50  0001 C CNN
-F 2 "" H 13400 1900 50  0001 C CNN
-F 3 "" H 13400 1900 50  0001 C CNN
-	1    13400 1900
+P 9200 2100
+F 0 "#PWR05" H 9200 1850 50  0001 C CNN
+F 1 "GND" H 9205 1927 50  0001 C CNN
+F 2 "" H 9200 2100 50  0001 C CNN
+F 3 "" H 9200 2100 50  0001 C CNN
+	1    9200 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13400 1650 13400 1600
+	9200 1850 9200 1800
 $Comp
 L Device:C_Small C4
 U 1 1 5F3B9A59
-P 13400 1750
-F 0 "C4" H 13200 1700 50  0000 C CNN
-F 1 "0.1u" H 13200 1800 50  0000 C CNN
-F 2 "Rays Footprints:C_0805_HandSoldering" H 13400 1750 50  0001 C CNN
-F 3 "~" H 13400 1750 50  0001 C CNN
-	1    13400 1750
+P 9200 1950
+F 0 "C4" H 9000 1900 50  0000 C CNN
+F 1 "0.1u" H 9000 2000 50  0000 C CNN
+F 2 "Rays Footprints:C_0805_HandSoldering" H 9200 1950 50  0001 C CNN
+F 3 "~" H 9200 1950 50  0001 C CNN
+	1    9200 1950
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	12900 2850 12900 3100
+	8700 3050 8700 3300
 Wire Wire Line
-	12900 1600 12900 1850
+	8700 1800 8700 2050
 Wire Wire Line
-	12900 2850 13550 2850
-Text GLabel 8050 5550 0    50   Input ~ 0
+	8700 3050 9350 3050
+Text GLabel 8050 5750 0    50   Input ~ 0
 +5V
 Wire Wire Line
-	8050 5650 8200 5650
+	8050 5850 8200 5850
 $Comp
 L power:GND #PWR019
 U 1 1 5F41EDA2
-P 8100 6200
-F 0 "#PWR019" H 8100 5950 50  0001 C CNN
-F 1 "GND" H 8105 6027 50  0001 C CNN
-F 2 "" H 8100 6200 50  0001 C CNN
-F 3 "" H 8100 6200 50  0001 C CNN
-	1    8100 6200
+P 8100 6400
+F 0 "#PWR019" H 8100 6150 50  0001 C CNN
+F 1 "GND" H 8105 6227 50  0001 C CNN
+F 2 "" H 8100 6400 50  0001 C CNN
+F 3 "" H 8100 6400 50  0001 C CNN
+	1    8100 6400
 	1    0    0    -1  
 $EndComp
-Text GLabel 8100 5850 0    50   Input ~ 0
+Text GLabel 8100 6050 0    50   Input ~ 0
 BB_ALERT
 Wire Wire Line
-	8100 5750 8200 5750
+	8100 5950 8200 5950
 Wire Wire Line
-	8100 5850 8200 5850
-Text GLabel 8100 5750 0    50   Input ~ 0
+	8100 6050 8200 6050
+Text GLabel 8100 5950 0    50   Input ~ 0
 BB_IOUT
 Wire Wire Line
-	8100 6200 8100 6150
+	8100 6400 8100 6350
 Wire Wire Line
-	8100 6150 8200 6150
+	8100 6350 8200 6350
 $Comp
 L Connector_Generic:Conn_01x04 TP1
 U 1 1 5F57AFCF
-P 15300 2850
-F 0 "TP1" H 15250 3200 50  0000 L CNN
-F 1 "0.1\" Header" H 15200 3100 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 15500 2850 50  0001 C CNN
-F 3 "" H 15500 2850 50  0001 C CNN
-	1    15300 2850
+P 11100 3050
+F 0 "TP1" H 11050 3400 50  0000 L CNN
+F 1 "0.1\" Header" H 11000 3300 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 11300 3050 50  0001 C CNN
+F 3 "" H 11300 3050 50  0001 C CNN
+	1    11100 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 5F57C2A7
-P 15000 3100
-F 0 "#PWR07" H 15000 2850 50  0001 C CNN
-F 1 "GND" H 15005 2927 50  0001 C CNN
-F 2 "" H 15000 3100 50  0001 C CNN
-F 3 "" H 15000 3100 50  0001 C CNN
-	1    15000 3100
+P 10800 3300
+F 0 "#PWR07" H 10800 3050 50  0001 C CNN
+F 1 "GND" H 10805 3127 50  0001 C CNN
+F 2 "" H 10800 3300 50  0001 C CNN
+F 3 "" H 10800 3300 50  0001 C CNN
+	1    10800 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5F57C73B
-P 15000 2700
-F 0 "#PWR06" H 15000 2450 50  0001 C CNN
-F 1 "GND" H 15005 2527 50  0001 C CNN
-F 2 "" H 15000 2700 50  0001 C CNN
-F 3 "" H 15000 2700 50  0001 C CNN
-	1    15000 2700
+P 10800 2900
+F 0 "#PWR06" H 10800 2650 50  0001 C CNN
+F 1 "GND" H 10805 2727 50  0001 C CNN
+F 2 "" H 10800 2900 50  0001 C CNN
+F 3 "" H 10800 2900 50  0001 C CNN
+	1    10800 2900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	15000 2700 15000 2750
+	10800 2900 10800 2950
 Wire Wire Line
-	15000 2750 15100 2750
+	10800 2950 10900 2950
 Wire Wire Line
-	15000 3100 15000 3050
+	10800 3300 10800 3250
 Wire Wire Line
-	15000 3050 15100 3050
+	10800 3250 10900 3250
 Wire Wire Line
-	8050 5550 8200 5550
-Text GLabel 8050 5650 0    50   Input ~ 0
-VOUT
-$Comp
-L Device:C C12
-U 1 1 5BDE3D58
-P 2950 8650
-F 0 "C12" H 3100 8700 50  0000 L CNN
-F 1 "0.1u" H 3100 8600 50  0000 L CNN
-F 2 "Rays Footprints:C_0805_HandSoldering" H 2988 8500 50  0001 C CNN
-F 3 "AVX 08053C104KAT2A" H 2950 8650 50  0001 C CNN
-	1    2950 8650
-	1    0    0    -1  
-$EndComp
+	8050 5750 8200 5750
+Text GLabel 8050 5850 0    50   Input ~ 0
+BB_VOUT
 Text GLabel 3050 2550 2    60   Input ~ 0
 SCL
 Text GLabel 3050 2450 2    60   Input ~ 0
@@ -299,7 +286,6 @@ F 3 "B5B-XH-A(LF)(SN)" H 4550 3750 50  0001 C CNN
 	1    4550 3750
 	-1   0    0    1   
 $EndComp
-Connection ~ 2950 8800
 $Comp
 L Device:C C5
 U 1 1 5BF5FE49
@@ -358,8 +344,6 @@ Wire Wire Line
 	850  750  850  950 
 Wire Wire Line
 	850  750  1250 750 
-Wire Wire Line
-	2950 8800 2600 8800
 $Comp
 L Device:CP1 C11
 U 1 1 5C05CBD6
@@ -395,164 +379,6 @@ F 3 "~" H 4250 6000 50  0001 C CNN
 	1    4250 6000
 	0    -1   -1   0   
 $EndComp
-$Comp
-L memory:24LC04 U3
-U 1 1 5BFB3782
-P 8800 2500
-F 0 "U3" H 8550 2750 50  0000 C CNN
-F 1 "24LC04" H 8950 2750 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8850 2250 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21708K.pdf" H 8800 2400 50  0001 C CNN
-	1    8800 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R3
-U 1 1 5BFC3534
-P 8000 2200
-F 0 "R3" V 7950 2000 50  0000 C CNN
-F 1 "10k" V 8100 2200 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 8040 2190 50  0001 C CNN
-F 3 "~" H 8000 2200 50  0001 C CNN
-	1    8000 2200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R4
-U 1 1 5BFC3802
-P 8200 2200
-F 0 "R4" V 8150 2000 50  0000 C CNN
-F 1 "10k" V 8300 2200 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 8240 2190 50  0001 C CNN
-F 3 "~" H 8200 2200 50  0001 C CNN
-	1    8200 2200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R2
-U 1 1 5BFC386C
-P 7800 2200
-F 0 "R2" V 7750 2000 50  0000 C CNN
-F 1 "10k" V 7900 2200 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 7840 2190 50  0001 C CNN
-F 3 "~" H 7800 2200 50  0001 C CNN
-	1    7800 2200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R8
-U 1 1 5BFC38DE
-P 7800 2800
-F 0 "R8" V 7750 2600 50  0000 C CNN
-F 1 "10k" V 7900 2800 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 7840 2790 50  0001 C CNN
-F 3 "~" H 7800 2800 50  0001 C CNN
-	1    7800 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R9
-U 1 1 5BFC39EE
-P 8000 2800
-F 0 "R9" V 7950 2600 50  0000 C CNN
-F 1 "10k" V 8100 2800 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 8040 2790 50  0001 C CNN
-F 3 "~" H 8000 2800 50  0001 C CNN
-	1    8000 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R10
-U 1 1 5BFC3A5E
-P 8200 2800
-F 0 "R10" V 8150 2600 50  0000 C CNN
-F 1 "10k" V 8300 2800 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 8240 2790 50  0001 C CNN
-F 3 "~" H 8200 2800 50  0001 C CNN
-	1    8200 2800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7800 2350 7800 2400
-Wire Wire Line
-	8200 2350 8200 2600
-Wire Wire Line
-	8200 2950 8800 2950
-Wire Wire Line
-	8800 2800 8800 2950
-Wire Wire Line
-	8800 3000 8800 2950
-Connection ~ 8800 2950
-Wire Wire Line
-	7800 2050 7800 2000
-Wire Wire Line
-	8200 2000 8200 2050
-Connection ~ 8000 2000
-Wire Wire Line
-	8000 2050 8000 2000
-Wire Wire Line
-	7800 2000 8000 2000
-Wire Wire Line
-	8000 2000 8200 2000
-Wire Wire Line
-	8000 2950 8200 2950
-Connection ~ 8200 2950
-Wire Wire Line
-	7800 2950 8000 2950
-Connection ~ 8000 2950
-Wire Wire Line
-	8000 2350 8000 2500
-Wire Wire Line
-	8400 2400 7800 2400
-Connection ~ 7800 2400
-Wire Wire Line
-	7800 2400 7800 2650
-Wire Wire Line
-	8400 2500 8000 2500
-Connection ~ 8000 2500
-Wire Wire Line
-	8200 2000 8800 2000
-Wire Wire Line
-	8800 2000 8800 2200
-Connection ~ 8200 2000
-Text GLabel 9300 2500 2    60   Input ~ 0
-SCL
-Text GLabel 9300 2400 2    60   Input ~ 0
-SDA
-Wire Wire Line
-	9300 2500 9200 2500
-Wire Wire Line
-	9300 2400 9200 2400
-$Comp
-L Device:R_US R6
-U 1 1 5C08C86B
-P 9700 2750
-F 0 "R6" V 9800 2750 50  0000 C CNN
-F 1 "10k" V 9600 2750 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 9740 2740 50  0001 C CNN
-F 3 "~" H 9700 2750 50  0001 C CNN
-	1    9700 2750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8800 2000 9700 2000
-Connection ~ 8800 2000
-Wire Wire Line
-	9700 2950 9700 2900
-Wire Wire Line
-	8800 2950 9700 2950
-Wire Wire Line
-	9700 2450 9700 2600
-Connection ~ 9700 2600
-Wire Wire Line
-	9200 2600 9700 2600
-Wire Wire Line
-	8000 2500 8000 2650
-Wire Wire Line
-	8400 2600 8200 2600
-Connection ~ 8200 2600
-Wire Wire Line
-	8200 2600 8200 2650
 Wire Wire Line
 	3950 3350 4000 3350
 Wire Wire Line
@@ -605,8 +431,6 @@ Wire Wire Line
 	3250 3550 3250 3850
 Wire Wire Line
 	5400 2600 5400 2550
-Wire Wire Line
-	9700 2000 9700 2350
 Wire Wire Line
 	5400 3100 5400 3050
 $Comp
@@ -802,9 +626,7 @@ Wire Wire Line
 Wire Wire Line
 	11900 5950 11750 5950
 Text Notes 10950 5350 0    59   ~ 0
-Programming Port
-Text Notes 8050 1750 0    59   ~ 0
-EEPROM\n- Not clear this is at all needed\n- Remove?
+ISP Programming Port\n    For Bootloader
 Wire Wire Line
 	3350 3650 4350 3650
 Wire Wire Line
@@ -875,7 +697,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 2450 2850 2450
 Text GLabel 3300 2350 2    60   Input ~ 0
-ADC3
+BUTTON
 Text GLabel 3300 2250 2    60   Input ~ 0
 ADC2
 Text GLabel 3300 2150 2    60   Input ~ 0
@@ -901,31 +723,20 @@ Wire Wire Line
 	5200 2550 5400 2550
 Connection ~ 5200 2550
 Connection ~ 5400 2550
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5EEE2528
-P 9900 2350
-F 0 "J1" H 9900 2600 50  0000 L CNN
-F 1 "0.1\" header" H 9850 2500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9900 2350 50  0001 C CNN
-F 3 "~" H 9900 2350 50  0001 C CNN
-	1    9900 2350
-	1    0    0    -1  
-$EndComp
-Text GLabel 8100 6050 0    50   Input ~ 0
+Text GLabel 8100 6150 0    50   Input ~ 0
 SCL
 Wire Wire Line
-	8100 6050 8200 6050
-Text GLabel 8100 5950 0    50   Input ~ 0
+	8100 6250 8200 6250
+Text GLabel 8100 6250 0    50   Input ~ 0
 SDA
 Wire Wire Line
-	8100 5950 8200 5950
+	8100 6150 8200 6150
 Text GLabel 1350 600  2    50   Input ~ 0
 +5V
 Wire Wire Line
 	1350 600  1250 600 
 Text GLabel 1600 1550 3    50   Input ~ 0
-VOUT
+BB_VOUT
 Wire Wire Line
 	1600 1550 1600 1450
 Wire Wire Line
@@ -938,25 +749,25 @@ Wire Wire Line
 	1500 1350 1650 1350
 Text GLabel 3100 1150 2    50   Input ~ 0
 BB_ALERT
-Text Notes 11800 750  0    98   ~ 0
-DAC Circuitry: Want Vout up to 5V (Vdd=5V)
+Text Notes 7600 950  0    98   ~ 0
+DAC Circuitry: Analog (or digital) Vout up to 5V
 Wire Notes Line
-	15950 550  15950 4000
+	11750 750  11750 4200
 Wire Notes Line
-	15950 4000 11700 4000
+	11750 4200 7500 4200
 Wire Notes Line
-	11700 4000 11700 550 
+	7500 4200 7500 750 
 Wire Notes Line
-	11700 550  15950 550 
+	7500 750  11750 750 
 Text Notes 15150 9300 0    59   ~ 0
   SPI Port\n(Expansion)
 $Comp
-L Connector_Generic:Conn_01x05 J14
+L Connector_Generic:Conn_01x04 J14
 U 1 1 5F0097C3
 P 12950 9850
 F 0 "J14" H 13000 9400 50  0000 R CNN
 F 1 "0.1\" Header" H 13000 9500 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 12950 9850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12950 9850 50  0001 C CNN
 F 3 "~" H 12950 9850 50  0001 C CNN
 	1    12950 9850
 	-1   0    0    1   
@@ -1032,9 +843,9 @@ F 3 "B5B-XH-A(LF)(SN)" H 16050 9800 50  0001 C CNN
 	1    16050 9800
 	1    0    0    -1  
 $EndComp
-Text GLabel 16350 9900 2    50   Input ~ 0
-SDA
 Text GLabel 16350 9800 2    50   Input ~ 0
+SDA
+Text GLabel 16350 9900 2    50   Input ~ 0
 SCL
 Text GLabel 16350 9700 2    50   Input ~ 0
 +5V
@@ -1062,81 +873,81 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x07 J4
 U 1 1 5F41A16B
-P 8400 5850
-F 0 "J4" H 8350 5400 50  0000 L CNN
-F 1 "0.1\" Header" H 8200 5300 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 8600 5850 50  0001 C CNN
-F 3 "" H 8600 5850 50  0001 C CNN
-	1    8400 5850
+P 8400 6050
+F 0 "J4" H 8350 5600 50  0000 L CNN
+F 1 "0.1\" Header" H 8200 5500 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 8600 6050 50  0001 C CNN
+F 3 "" H 8600 6050 50  0001 C CNN
+	1    8400 6050
 	1    0    0    -1  
 $EndComp
 Text Notes 16000 9300 0    59   ~ 0
   I2C Port\n(Expansion)
-Text GLabel 10000 5500 0    50   Input ~ 0
+Text GLabel 10000 5450 0    50   Input ~ 0
 +5V
 $Comp
 L power:GND #PWR020
 U 1 1 5F6A0ED3
-P 10050 6350
-F 0 "#PWR020" H 10050 6100 50  0001 C CNN
-F 1 "GND" H 10055 6177 50  0001 C CNN
-F 2 "" H 10050 6350 50  0001 C CNN
-F 3 "" H 10050 6350 50  0001 C CNN
-	1    10050 6350
+P 10050 6300
+F 0 "#PWR020" H 10050 6050 50  0001 C CNN
+F 1 "GND" H 10055 6127 50  0001 C CNN
+F 2 "" H 10050 6300 50  0001 C CNN
+F 3 "" H 10050 6300 50  0001 C CNN
+	1    10050 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10100 5500 10000 5500
-Text GLabel 10000 5600 0    50   Input ~ 0
+	10100 5450 10000 5450
+Text GLabel 10000 5550 0    50   Input ~ 0
 DISP_CS_3.3
 Wire Wire Line
-	10000 5600 10100 5600
-Text GLabel 9850 6750 0    50   Input ~ 0
+	10000 5550 10100 5550
+Text GLabel 9850 6700 0    50   Input ~ 0
 DISP_RESET_3.3
 Wire Wire Line
-	10000 5700 10100 5700
-Text GLabel 10000 5700 0    50   Input ~ 0
+	10000 5650 10100 5650
+Text GLabel 10000 5650 0    50   Input ~ 0
 DISP_DC_3.3
-Text GLabel 10000 5900 0    50   Input ~ 0
+Text GLabel 10000 5850 0    50   Input ~ 0
 MOSI_3.3
-Text GLabel 10000 6000 0    50   Input ~ 0
+Text GLabel 10000 5950 0    50   Input ~ 0
 SCK_3.3
 $Comp
 L Device:R_US R15
 U 1 1 5F70CD1A
-P 9400 6050
-F 0 "R15" V 9600 6050 50  0000 C CNN
-F 1 "100" V 9500 6050 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 9440 6040 50  0001 C CNN
-F 3 "~" H 9400 6050 50  0001 C CNN
-	1    9400 6050
+P 9400 6000
+F 0 "R15" V 9600 6000 50  0000 C CNN
+F 1 "100" V 9500 6000 50  0000 C CNN
+F 2 "Rays Footprints:R_0805_HandSoldering" V 9440 5990 50  0001 C CNN
+F 3 "~" H 9400 6000 50  0001 C CNN
+	1    9400 6000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9200 6050 0    50   Input ~ 0
+Text GLabel 9200 6000 0    50   Input ~ 0
 +5V
 $Comp
 L Connector_Generic:Conn_01x09 J5
 U 1 1 5F6A0589
-P 10300 5900
-F 0 "J5" H 10250 5350 50  0000 L CNN
-F 1 "0.1\" Header" H 10050 5250 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 10500 5900 50  0001 C CNN
-F 3 "" H 10500 5900 50  0001 C CNN
-	1    10300 5900
+P 10300 5850
+F 0 "J5" H 10250 5300 50  0000 L CNN
+F 1 "0.1\" Header" H 10050 5200 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 10500 5850 50  0001 C CNN
+F 3 "" H 10500 5850 50  0001 C CNN
+	1    10300 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 5800 10100 5800
+	10000 5750 10100 5750
 Wire Wire Line
-	10100 5900 10000 5900
+	10100 5850 10000 5850
 Wire Wire Line
-	10000 6000 10100 6000
-Text GLabel 10000 5800 0    50   Input ~ 0
+	10000 5950 10100 5950
+Text GLabel 10000 5750 0    50   Input ~ 0
 MISO_3.3
 Wire Wire Line
-	10050 6350 10050 6300
+	10050 6300 10050 6250
 Wire Wire Line
-	10050 6300 10100 6300
+	10050 6250 10100 6250
 Text Notes 9250 5350 0    59   ~ 0
 I/O to Display Board
 Wire Wire Line
@@ -1148,7 +959,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 2250 3300 2250
 Wire Wire Line
-	2850 2350 3300 2350
+	2850 2350 3250 2350
 Text GLabel 3350 2800 2    50   Input ~ 0
 DISP_CS
 Text GLabel 3350 2900 2    50   Input ~ 0
@@ -1240,12 +1051,12 @@ Connection ~ 1100 3900
 $Comp
 L power:GND #PWR035
 U 1 1 5FBEE80F
-P 2950 8850
-F 0 "#PWR035" H 2950 8600 50  0001 C CNN
-F 1 "GND" H 2955 8677 50  0001 C CNN
-F 2 "" H 2950 8850 50  0001 C CNN
-F 3 "" H 2950 8850 50  0001 C CNN
-	1    2950 8850
+P 2600 8850
+F 0 "#PWR035" H 2600 8600 50  0001 C CNN
+F 1 "GND" H 2605 8677 50  0001 C CNN
+F 2 "" H 2600 8850 50  0001 C CNN
+F 3 "" H 2600 8850 50  0001 C CNN
+	1    2600 8850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1260,7 +1071,7 @@ F 3 "" H 1200 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 8850 2950 8800
+	2600 8850 2600 8800
 Wire Wire Line
 	3300 10000 3350 10000
 $Comp
@@ -1333,17 +1144,6 @@ F 2 "" H 3950 3350 50  0001 C CNN
 F 3 "" H 3950 3350 50  0001 C CNN
 	1    3950 3350
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 5FC98672
-P 8800 3000
-F 0 "#PWR010" H 8800 2750 50  0001 C CNN
-F 1 "GND" H 8805 2827 50  0001 C CNN
-F 2 "" H 8800 3000 50  0001 C CNN
-F 3 "" H 8800 3000 50  0001 C CNN
-	1    8800 3000
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR03
@@ -1504,96 +1304,96 @@ F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 
 	1    9750 9200
 	1    0    0    -1  
 $EndComp
-Text Notes 11900 1400 0    59   ~ 0
+Text Notes 7700 1600 0    59   ~ 0
 MCP4716: Only acts as slave\nVih = 0.7xVdd -> requires 5V signaling from CPU\nVref = 2.5V, configure DAC gain = 2\n- Prevents VOUT_DAC from exceeding 5.0V\n- Cleans up noise from supply. If Vref=Vdd, PSRR ~~0dB\n- R/R buffer due to high DAC output impedance
 Wire Wire Line
-	12650 1750 12650 1850
+	8450 1950 8450 2050
 Wire Wire Line
-	12600 1750 12650 1750
-Text GLabel 12600 1750 0    50   Input ~ 0
+	8400 1950 8450 1950
+Text GLabel 8400 1950 0    50   Input ~ 0
 VREF_2.5
 Wire Wire Line
-	12650 3000 12650 3100
+	8450 3200 8450 3300
 Wire Wire Line
-	12600 3000 12650 3000
-Text GLabel 12600 3000 0    50   Input ~ 0
+	8400 3200 8450 3200
+Text GLabel 8400 3200 0    50   Input ~ 0
 VREF_2.5
 Wire Wire Line
-	15100 1800 15100 1850
+	10900 2000 10900 2050
 Wire Wire Line
-	14700 1750 14700 1850
+	10500 1950 10500 2050
 $Comp
 L power:GND #PWR015
 U 1 1 5F40A6F9
-P 15100 1850
-F 0 "#PWR015" H 15100 1600 50  0001 C CNN
-F 1 "GND" H 15105 1677 50  0001 C CNN
-F 2 "" H 15100 1850 50  0001 C CNN
-F 3 "" H 15100 1850 50  0001 C CNN
-	1    15100 1850
+P 10900 2050
+F 0 "#PWR015" H 10900 1800 50  0001 C CNN
+F 1 "GND" H 10905 1877 50  0001 C CNN
+F 2 "" H 10900 2050 50  0001 C CNN
+F 3 "" H 10900 2050 50  0001 C CNN
+	1    10900 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14700 1450 15100 1450
+	10500 1650 10900 1650
 Wire Wire Line
-	14700 1550 14700 1450
+	10500 1750 10500 1650
 $Comp
 L Device:C_Small C6
 U 1 1 5F3C59C8
-P 14700 1650
-F 0 "C6" H 14500 1600 50  0000 C CNN
-F 1 "0.1u" H 14500 1700 50  0000 C CNN
-F 2 "Rays Footprints:C_0805_HandSoldering" H 14700 1650 50  0001 C CNN
-F 3 "~" H 14700 1650 50  0001 C CNN
-	1    14700 1650
+P 10500 1850
+F 0 "C6" H 10300 1800 50  0000 C CNN
+F 1 "0.1u" H 10300 1900 50  0000 C CNN
+F 2 "Rays Footprints:C_0805_HandSoldering" H 10500 1850 50  0001 C CNN
+F 3 "~" H 10500 1850 50  0001 C CNN
+	1    10500 1850
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	15100 1450 15100 1500
-Connection ~ 15100 1450
+	10900 1650 10900 1700
+Connection ~ 10900 1650
 Wire Wire Line
-	15300 1450 15100 1450
-Text GLabel 15300 1450 2    50   Input ~ 0
+	11100 1650 10900 1650
+Text GLabel 11100 1650 2    50   Input ~ 0
 VREF_2.5
 Wire Wire Line
-	15100 1050 15100 1100
+	10900 1250 10900 1300
 Wire Wire Line
-	15050 1050 15100 1050
+	10850 1250 10900 1250
 $Comp
 L power:GND #PWR014
 U 1 1 5F0F1807
-P 14700 1850
-F 0 "#PWR014" H 14700 1600 50  0001 C CNN
-F 1 "GND" H 14705 1677 50  0001 C CNN
-F 2 "" H 14700 1850 50  0001 C CNN
-F 3 "" H 14700 1850 50  0001 C CNN
-	1    14700 1850
+P 10500 2050
+F 0 "#PWR014" H 10500 1800 50  0001 C CNN
+F 1 "GND" H 10505 1877 50  0001 C CNN
+F 2 "" H 10500 2050 50  0001 C CNN
+F 3 "" H 10500 2050 50  0001 C CNN
+	1    10500 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15100 1400 15100 1450
+	10900 1600 10900 1650
 $Comp
 L Device:R_US R7
 U 1 1 5ED30D08
-P 15100 1250
-F 0 "R7" H 14950 1200 50  0000 C CNN
-F 1 "25k" H 14950 1300 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 15140 1240 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1210JT12R0/RMCF1210JT12R0CT-ND/7906987" H 15100 1250 50  0001 C CNN
-	1    15100 1250
+P 10900 1450
+F 0 "R7" H 10750 1400 50  0000 C CNN
+F 1 "25k" H 10750 1500 50  0000 C CNN
+F 2 "Rays Footprints:R_0805_HandSoldering" V 10940 1440 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1210JT12R0/RMCF1210JT12R0CT-ND/7906987" H 10900 1450 50  0001 C CNN
+	1    10900 1450
 	-1   0    0    1   
 $EndComp
-Text GLabel 15050 1050 0    50   Input ~ 0
+Text GLabel 10850 1250 0    50   Input ~ 0
 +5V
 $Comp
 L Reference_Voltage:LM4040DBZ-2.5 U4
 U 1 1 5ED30D06
-P 15100 1650
-F 0 "U4" V 15146 1562 50  0000 R CNN
-F 1 "LM4040DBZ-2.5" V 15055 1562 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 15100 1450 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 15100 1650 50  0001 C CIN
-	1    15100 1650
+P 10900 1850
+F 0 "U4" V 10946 1762 50  0000 R CNN
+F 1 "LM4040DBZ-2.5" V 10855 1762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10900 1650 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 10900 1850 50  0001 C CIN
+	1    10900 1850
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1781,12 +1581,6 @@ Wire Wire Line
 Connection ~ 2900 9700
 Wire Wire Line
 	1250 750  2250 750 
-Text GLabel 7950 1850 0    50   Input ~ 0
-+5V
-Wire Wire Line
-	7950 1850 8000 1850
-Wire Wire Line
-	8000 1850 8000 2000
 $Comp
 L Device:R_US R27
 U 1 1 5F75E86B
@@ -1990,8 +1784,8 @@ Wire Wire Line
 Connection ~ 16050 6800
 Text Notes 13950 9300 0    59   ~ 0
       PWM Output\n(if DISP_RESET unused)
-Text Notes 7650 5350 0    59   ~ 0
-I/O to Analog Board
+Text Notes 7650 5650 0    59   ~ 0
+I/O to Analog Board\n- BB_VOUT: Output voltage\n- BB_IOUT: Output current\n- BB_ALERT: Error condition
 Wire Wire Line
 	3400 1250 2850 1250
 Wire Wire Line
@@ -1999,29 +1793,29 @@ Wire Wire Line
 $Comp
 L Device:R_US R18
 U 1 1 601BD00C
-P 9400 6150
-F 0 "R18" V 9300 6150 50  0000 C CNN
-F 1 "10k/DNP" V 9200 6150 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 9440 6140 50  0001 C CNN
-F 3 "~" H 9400 6150 50  0001 C CNN
-	1    9400 6150
+P 9400 6100
+F 0 "R18" V 9300 6100 50  0000 C CNN
+F 1 "10k/DNP" V 9200 6100 50  0000 C CNN
+F 2 "Rays Footprints:R_0805_HandSoldering" V 9440 6090 50  0001 C CNN
+F 3 "~" H 9400 6100 50  0001 C CNN
+	1    9400 6100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
+	9550 6000 9550 6050
+Wire Wire Line
+	9550 6050 10100 6050
+Connection ~ 9550 6050
+Wire Wire Line
 	9550 6050 9550 6100
 Wire Wire Line
-	9550 6100 10100 6100
-Connection ~ 9550 6100
+	9250 6000 9200 6000
 Wire Wire Line
-	9550 6100 9550 6150
-Wire Wire Line
-	9250 6050 9200 6050
-Wire Wire Line
-	9200 6150 9250 6150
-Text GLabel 9200 6150 0    50   Input ~ 0
+	9200 6100 9250 6100
+Text GLabel 9200 6100 0    50   Input ~ 0
 LED_PWM
-Text Notes 13500 5250 0    59   ~ 0
-Level shifters\n- Resistor dividers provide uni-directional translation\n- FETs provide bi-directional (test circuit)
+Text Notes 13500 5400 0    59   ~ 0
+Level shifters\n- Resistor dividers provide uni-directional translation\n- FET provides bi-directional (test circuit)
 Wire Notes Line
 	500  7700 5300 7700
 Wire Notes Line
@@ -2279,8 +2073,6 @@ Wire Wire Line
 	8850 8500 8950 8500
 Text GLabel 8550 8100 0    50   Input ~ 0
 +3.3V
-Text Notes 10000 2500 0    59   ~ 0
- \nWrite\nProtect
 Wire Wire Line
 	850  3900 1100 3900
 Wire Wire Line
@@ -2297,42 +2089,40 @@ F 3 "~" H 4800 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	13150 9950 13350 9950
+	13150 9850 13350 9850
 Wire Wire Line
-	13350 9850 13150 9850
+	13350 9750 13150 9750
 Wire Wire Line
-	13150 9750 13350 9750
-Wire Wire Line
-	13350 9650 13150 9650
+	13150 9650 13350 9650
 $Comp
 L Device:R_US R22
 U 1 1 61135112
-P 9400 6450
-F 0 "R22" V 9300 6450 50  0000 C CNN
-F 1 "19.4k/DNP" V 9200 6450 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 9440 6440 50  0001 C CNN
-F 3 "~" H 9400 6450 50  0001 C CNN
-	1    9400 6450
+P 9400 6400
+F 0 "R22" V 9300 6400 50  0000 C CNN
+F 1 "19.4k/DNP" V 9200 6400 50  0000 C CNN
+F 2 "Rays Footprints:R_0805_HandSoldering" V 9440 6390 50  0001 C CNN
+F 3 "~" H 9400 6400 50  0001 C CNN
+	1    9400 6400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9550 6150 9550 6450
-Connection ~ 9550 6150
+	9550 6100 9550 6400
+Connection ~ 9550 6100
 $Comp
 L power:GND #PWR021
 U 1 1 61162594
-P 9200 6500
-F 0 "#PWR021" H 9200 6250 50  0001 C CNN
-F 1 "GND" H 9205 6327 50  0001 C CNN
-F 2 "" H 9200 6500 50  0001 C CNN
-F 3 "" H 9200 6500 50  0001 C CNN
-	1    9200 6500
+P 9200 6450
+F 0 "#PWR021" H 9200 6200 50  0001 C CNN
+F 1 "GND" H 9205 6277 50  0001 C CNN
+F 2 "" H 9200 6450 50  0001 C CNN
+F 3 "" H 9200 6450 50  0001 C CNN
+	1    9200 6450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 6500 9200 6450
+	9200 6450 9200 6400
 Wire Wire Line
-	9200 6450 9250 6450
+	9200 6400 9250 6400
 $Comp
 L Device:R_US R28
 U 1 1 5F0C9830
@@ -2355,55 +2145,51 @@ F 3 "~" H 3750 6750 50  0001 C CNN
 	1    3750 6750
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9450 7100 0    50   Input ~ 0
+Text GLabel 9450 7050 0    50   Input ~ 0
 RESET
 $Comp
 L Device:R_US R30
 U 1 1 61199EA3
-P 9650 7100
-F 0 "R30" V 9550 7100 50  0000 C CNN
-F 1 "10k/DNP" V 9450 7100 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 9690 7090 50  0001 C CNN
-F 3 "~" H 9650 7100 50  0001 C CNN
-	1    9650 7100
+P 9650 7050
+F 0 "R30" V 9550 7050 50  0000 C CNN
+F 1 "10k/DNP" V 9450 7050 50  0000 C CNN
+F 2 "Rays Footprints:R_0805_HandSoldering" V 9690 7040 50  0001 C CNN
+F 3 "~" H 9650 7050 50  0001 C CNN
+	1    9650 7050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_US R31
 U 1 1 6119A58F
-P 10050 7100
-F 0 "R31" V 9950 7100 50  0000 C CNN
-F 1 "19.4k/DNP" V 9850 7100 50  0000 C CNN
-F 2 "Rays Footprints:R_0805_HandSoldering" V 10090 7090 50  0001 C CNN
-F 3 "~" H 10050 7100 50  0001 C CNN
-	1    10050 7100
+P 10050 7050
+F 0 "R31" V 9950 7050 50  0000 C CNN
+F 1 "19.4k/DNP" V 9850 7050 50  0000 C CNN
+F 2 "Rays Footprints:R_0805_HandSoldering" V 10090 7040 50  0001 C CNN
+F 3 "~" H 10050 7050 50  0001 C CNN
+	1    10050 7050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR028
 U 1 1 6119ACA1
-P 10250 7100
-F 0 "#PWR028" H 10250 6850 50  0001 C CNN
-F 1 "GND" H 10255 6927 50  0001 C CNN
-F 2 "" H 10250 7100 50  0001 C CNN
-F 3 "" H 10250 7100 50  0001 C CNN
-	1    10250 7100
+P 10250 7050
+F 0 "#PWR028" H 10250 6800 50  0001 C CNN
+F 1 "GND" H 10255 6877 50  0001 C CNN
+F 2 "" H 10250 7050 50  0001 C CNN
+F 3 "" H 10250 7050 50  0001 C CNN
+	1    10250 7050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10250 7100 10200 7100
+	10250 7050 10200 7050
 Wire Wire Line
-	9900 7100 9850 7100
+	9900 7050 9850 7050
 Wire Wire Line
-	9500 7100 9450 7100
-Text GLabel 9850 6950 0    50   Input ~ 0
-DISP_RESET_3.3
+	9500 7050 9450 7050
+Connection ~ 9850 7050
 Wire Wire Line
-	9850 6950 9850 7100
-Connection ~ 9850 7100
-Wire Wire Line
-	9850 7100 9800 7100
-Text Notes 8850 6850 0    59   ~ 0
+	9850 7050 9800 7050
+Text Notes 8850 6950 0    59   ~ 0
 Alternate to using GPIO Pin to reset display
 $Comp
 L Device:R_US R1
@@ -2423,138 +2209,136 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0101
 U 1 1 613EAC65
-P 13200 10100
-F 0 "#PWR0101" H 13200 9850 50  0001 C CNN
-F 1 "GND" H 13205 9927 50  0001 C CNN
-F 2 "" H 13200 10100 50  0001 C CNN
-F 3 "" H 13200 10100 50  0001 C CNN
-	1    13200 10100
+P 13200 10000
+F 0 "#PWR0101" H 13200 9750 50  0001 C CNN
+F 1 "GND" H 13205 9827 50  0001 C CNN
+F 2 "" H 13200 10000 50  0001 C CNN
+F 3 "" H 13200 10000 50  0001 C CNN
+	1    13200 10000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13200 10100 13200 10050
+	13200 10000 13200 9950
 Wire Wire Line
-	13200 10050 13150 10050
-Text Notes 8150 1300 0    59   ~ 0
-- Check for nearby Vcc bypass -
+	13200 9950 13150 9950
 Wire Wire Line
-	12900 1600 13400 1600
-Connection ~ 13400 1600
+	8700 1800 9200 1800
+Connection ~ 9200 1800
 Wire Wire Line
-	13400 1600 13550 1600
+	9200 1800 9350 1800
 $Comp
 L Amplifier_Operational:MCP6002-xSN U8
 U 1 1 5ED9371E
-P 13900 2250
-F 0 "U8" H 13900 2617 50  0000 C CNN
-F 1 "MCP6002-xSN" H 13900 2526 50  0000 C CNN
-F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 13900 2250 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 13900 2250 50  0001 C CNN
-	1    13900 2250
+P 9700 2450
+F 0 "U8" H 9700 2817 50  0000 C CNN
+F 1 "MCP6002-xSN" H 9700 2726 50  0000 C CNN
+F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 9700 2450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9700 2450 50  0001 C CNN
+	1    9700 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:MCP6002-xSN U8
 U 2 1 5ED9795B
-P 13900 3500
-F 0 "U8" H 13900 3867 50  0000 C CNN
-F 1 "MCP6002-xSN" H 13900 3776 50  0000 C CNN
-F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 13900 3500 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 13900 3500 50  0001 C CNN
-	2    13900 3500
+P 9700 3700
+F 0 "U8" H 9700 4067 50  0000 C CNN
+F 1 "MCP6002-xSN" H 9700 3976 50  0000 C CNN
+F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 9700 3700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9700 3700 50  0001 C CNN
+	2    9700 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:MCP6002-xSN U8
 U 3 1 5ED9B1B1
-P 15350 3600
-F 0 "U8" H 15308 3646 50  0000 L CNN
-F 1 "MCP6002-xSN" H 15308 3555 50  0000 L CNN
-F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 15350 3600 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 15350 3600 50  0001 C CNN
-	3    15350 3600
+P 11150 3800
+F 0 "U8" H 11108 3846 50  0000 L CNN
+F 1 "MCP6002-xSN" H 11108 3755 50  0000 L CNN
+F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 11150 3800 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 11150 3800 50  0001 C CNN
+	3    11150 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13600 3600 13550 3600
+	9400 3800 9350 3800
 Wire Wire Line
-	13550 3600 13550 3800
+	9350 3800 9350 4000
 Wire Wire Line
-	13550 3800 14250 3800
+	9350 4000 10050 4000
 Wire Wire Line
-	14250 3800 14250 3500
+	10050 4000 10050 3700
 Wire Wire Line
-	14250 3500 14200 3500
-Connection ~ 14250 3500
+	10050 3700 10000 3700
+Connection ~ 10050 3700
 Wire Wire Line
-	13350 3400 13600 3400
+	9150 3600 9400 3600
 Wire Wire Line
-	13350 2150 13600 2150
+	9150 2350 9400 2350
 Wire Wire Line
-	13600 2350 13550 2350
+	9400 2550 9350 2550
 Wire Wire Line
-	13550 2350 13550 2550
+	9350 2550 9350 2750
 Wire Wire Line
-	13550 2550 14250 2550
+	9350 2750 10050 2750
 Wire Wire Line
-	14250 2550 14250 2250
+	10050 2750 10050 2450
 Wire Wire Line
-	14250 2250 14200 2250
-Connection ~ 14250 2250
+	10050 2450 10000 2450
+Connection ~ 10050 2450
 Wire Wire Line
-	14550 2250 14550 2850
+	10350 2450 10350 3050
 Wire Wire Line
-	14550 2850 15100 2850
+	10350 3050 10900 3050
 Wire Wire Line
-	14250 2250 14550 2250
+	10050 2450 10350 2450
 Wire Wire Line
-	14550 3500 14550 2950
+	10350 3700 10350 3150
 Wire Wire Line
-	14550 2950 15100 2950
+	10350 3150 10900 3150
 Wire Wire Line
-	14250 3500 14550 3500
-Text Label 14550 3350 0    50   ~ 0
+	10050 3700 10350 3700
+Text Label 10350 3550 0    50   ~ 0
 VOUT_DAC2
-Text Label 14550 2500 0    50   ~ 0
+Text Label 10350 2700 0    50   ~ 0
 VOUT_DAC1
-Text GLabel 15300 3300 2    50   Input ~ 0
+Text GLabel 11100 3500 2    50   Input ~ 0
 +5V
 Wire Wire Line
-	15300 3300 15250 3300
+	11100 3500 11050 3500
 $Comp
 L power:GND #PWR0102
 U 1 1 5F10291E
-P 15300 3900
-F 0 "#PWR0102" H 15300 3650 50  0001 C CNN
-F 1 "GND" H 15305 3727 50  0001 C CNN
-F 2 "" H 15300 3900 50  0001 C CNN
-F 3 "" H 15300 3900 50  0001 C CNN
-	1    15300 3900
+P 11100 4100
+F 0 "#PWR0102" H 11100 3850 50  0001 C CNN
+F 1 "GND" H 11105 3927 50  0001 C CNN
+F 2 "" H 11100 4100 50  0001 C CNN
+F 3 "" H 11100 4100 50  0001 C CNN
+	1    11100 4100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	15300 3900 15250 3900
+	11100 4100 11050 4100
 $Comp
 L Device:C_Small C14
 U 1 1 5F2A05D9
-P 15050 3600
-F 0 "C14" H 15250 3550 50  0000 C CNN
-F 1 "0.1u" H 15250 3650 50  0000 C CNN
-F 2 "Rays Footprints:C_0805_HandSoldering" H 15050 3600 50  0001 C CNN
-F 3 "~" H 15050 3600 50  0001 C CNN
-	1    15050 3600
+P 10850 3800
+F 0 "C14" H 11050 3750 50  0000 C CNN
+F 1 "0.1u" H 11050 3850 50  0000 C CNN
+F 2 "Rays Footprints:C_0805_HandSoldering" H 10850 3800 50  0001 C CNN
+F 3 "~" H 10850 3800 50  0001 C CNN
+	1    10850 3800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	15050 3300 15250 3300
-Connection ~ 15250 3300
+	10850 3500 11050 3500
+Connection ~ 11050 3500
 Wire Wire Line
-	15050 3300 15050 3500
+	10850 3500 10850 3700
 Wire Wire Line
-	15050 3900 15250 3900
+	10850 4100 11050 4100
 Wire Wire Line
-	15050 3700 15050 3900
-Connection ~ 15250 3900
+	10850 3900 10850 4100
+Connection ~ 11050 4100
 Wire Wire Line
 	4250 3950 4350 3950
 Wire Wire Line
@@ -2595,12 +2379,7 @@ Connection ~ 1900 8450
 Wire Wire Line
 	1900 8450 2600 8450
 Wire Wire Line
-	2950 8500 2950 8450
-Wire Wire Line
 	2600 8450 2600 8500
-Connection ~ 2600 8450
-Wire Wire Line
-	2600 8450 2950 8450
 Text Notes 2550 8350 0    59   ~ 0
 Main Bypass
 $Comp
@@ -2707,7 +2486,60 @@ Wire Wire Line
 Wire Wire Line
 	13250 7150 13300 7150
 Wire Wire Line
-	9850 6750 9850 6200
+	9850 6150 10100 6150
 Wire Wire Line
-	9850 6200 10100 6200
+	9850 6150 9850 7050
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5EDB3737
+P 4200 2400
+F 0 "J1" H 4000 2350 50  0000 R CNN
+F 1 "JST" H 4000 2450 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4200 2400 50  0001 C CNN
+F 3 "B5B-XH-A(LF)(SN)" H 4200 2400 50  0001 C CNN
+	1    4200 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EDB4F39
+P 3950 2400
+F 0 "#PWR0103" H 3950 2150 50  0001 C CNN
+F 1 "GND" H 3955 2227 50  0001 C CNN
+F 2 "" H 3950 2400 50  0001 C CNN
+F 3 "" H 3950 2400 50  0001 C CNN
+	1    3950 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 2400 3950 2400
+Wire Wire Line
+	4000 2300 3250 2300
+Wire Wire Line
+	3250 2300 3250 2350
+Connection ~ 3250 2350
+Wire Wire Line
+	3250 2350 3300 2350
+Wire Notes Line
+	14650 5850 14650 6900
+Wire Notes Line
+	14650 6900 16600 6900
+Wire Notes Line
+	16600 6900 16600 5850
+Wire Notes Line
+	16600 5850 14650 5850
+Text Notes 14700 5950 0    59   ~ 0
+Bidirectional
+Text Notes 14700 7500 0    59   ~ 0
+Unidirectional
+Wire Notes Line
+	14650 7100 16150 7100
+Wire Notes Line
+	16150 7100 16150 7550
+Wire Notes Line
+	16150 7550 14650 7550
+Wire Notes Line
+	14650 7550 14650 7100
+Text Notes 10400 7950 0    59   ~ 0
+FT232 for USB\nProgramming and\nData to PC
 $EndSCHEMATC
