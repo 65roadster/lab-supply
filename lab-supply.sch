@@ -194,37 +194,35 @@ Wire Wire Line
 	2450 2800 2450 2750
 Wire Wire Line
 	2650 2750 2650 2800
-Text GLabel 2300 2300 0    50   Input ~ 0
-+5V
+Text GLabel 2250 2150 0    50   Input ~ 0
+VCC_BB
 Connection ~ 2450 2500
 $Comp
 L Device:C_Small C5
 U 1 1 5EF72D37
-P 3750 3450
-F 0 "C5" H 3900 3450 50  0000 C CNN
-F 1 "0.1u" H 3900 3550 50  0000 C CNN
-F 2 "Rays Footprints:C_0603_HandSoldering" H 3750 3450 50  0001 C CNN
-F 3 "~" H 3750 3450 50  0001 C CNN
-	1    3750 3450
+P 3750 3650
+F 0 "C5" H 3900 3650 50  0000 C CNN
+F 1 "0.1u" H 3900 3750 50  0000 C CNN
+F 2 "Rays Footprints:C_0603_HandSoldering" H 3750 3650 50  0001 C CNN
+F 3 "~" H 3750 3650 50  0001 C CNN
+	1    3750 3650
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5EF72D41
-P 3750 3600
-F 0 "#PWR05" H 3750 3350 50  0001 C CNN
-F 1 "GND" H 3755 3427 50  0001 C CNN
-F 2 "" H 3750 3600 50  0001 C CNN
-F 3 "" H 3750 3600 50  0001 C CNN
-	1    3750 3600
+P 3750 3800
+F 0 "#PWR05" H 3750 3550 50  0001 C CNN
+F 1 "GND" H 3755 3627 50  0001 C CNN
+F 2 "" H 3750 3800 50  0001 C CNN
+F 3 "" H 3750 3800 50  0001 C CNN
+	1    3750 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 3550 3750 3600
+	3750 3750 3750 3800
 Wire Wire Line
 	3800 3300 3750 3300
-Wire Wire Line
-	3750 3300 3750 3350
 $Comp
 L Device:R_US R2
 U 1 1 5EF8844A
@@ -238,10 +236,6 @@ F 3 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF121
 $EndComp
 Wire Wire Line
 	3800 3150 3700 3150
-Text GLabel 3250 3150 0    50   Input ~ 0
-+5V
-Wire Wire Line
-	3250 3150 3300 3150
 $Comp
 L Device:R_US R1
 U 1 1 5EFA6796
@@ -396,8 +390,6 @@ Connection ~ 4900 3700
 Wire Wire Line
 	4900 3700 4750 3700
 Wire Wire Line
-	4850 3550 4900 3550
-Wire Wire Line
 	5900 2500 5900 2550
 $Comp
 L power:GND #PWR03
@@ -499,15 +491,13 @@ $Comp
 L Connector_Generic:Conn_01x06 TP1
 U 1 1 5F3A352E
 P 1750 2600
-F 0 "TP1" H 1700 2050 50  0000 L CNN
-F 1 "Input Power" H 1550 2150 50  0000 L CNN
+F 0 "TP1" H 1700 2200 50  0000 L CNN
+F 1 "Input Power" V 1850 2350 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1950 2600 50  0001 C CNN
 F 3 "" H 1950 2600 50  0001 C CNN
 	1    1750 2600
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2300 2300 2300 2500
 Connection ~ 2300 2500
 Wire Wire Line
 	2300 2500 2450 2500
@@ -1289,4 +1279,61 @@ Wire Wire Line
 Connection ~ 8900 2850
 Wire Wire Line
 	8900 2600 8900 2750
+Wire Wire Line
+	3750 3300 3750 3500
+Wire Wire Line
+	3750 3500 3050 3500
+Wire Wire Line
+	3050 3500 3050 3150
+Wire Wire Line
+	3050 3150 3300 3150
+Connection ~ 3750 3500
+Wire Wire Line
+	3750 3500 3750 3550
+$Comp
+L Device:R_US R11
+U 1 1 5EDBEE35
+P 2500 2150
+F 0 "R11" V 2600 2150 50  0000 C CNN
+F 1 "0" V 2700 2150 50  0000 C CNN
+F 2 "Rays Footprints:R_0805_HandSoldering" V 2540 2140 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1210JT12R0/RMCF1210JT12R0CT-ND/7906987" H 2500 2150 50  0001 C CNN
+	1    2500 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 2150 2300 2500
+Wire Wire Line
+	2250 2150 2300 2150
+Wire Wire Line
+	2350 2150 2300 2150
+Connection ~ 2300 2150
+Text GLabel 2750 2150 2    50   Input ~ 0
++5V
+Wire Wire Line
+	2700 2150 2650 2150
+$Comp
+L Device:R_US R10
+U 1 1 5EDE3305
+P 2500 1950
+F 0 "R10" V 2300 1950 50  0000 C CNN
+F 1 "0" V 2400 1950 50  0000 C CNN
+F 2 "Rays Footprints:R_0805_HandSoldering" V 2540 1940 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1210JT12R0/RMCF1210JT12R0CT-ND/7906987" H 2500 1950 50  0001 C CNN
+	1    2500 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 2150 2300 1950
+Wire Wire Line
+	2300 1950 2350 1950
+Wire Wire Line
+	2650 1950 2700 1950
+Wire Wire Line
+	2700 1950 2700 2150
+Wire Wire Line
+	2700 2150 2750 2150
+Connection ~ 2700 2150
+Text Notes 2000 1650 0    79   ~ 0
+Allow to run off Vin\nother than 5V from\ncontrol board
 $EndSCHEMATC
