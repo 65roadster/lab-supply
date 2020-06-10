@@ -1919,6 +1919,4 @@ Wire Wire Line
 Connection ~ 1800 4100
 Wire Wire Line
 	1450 4100 1800 4100
-Text Notes 2400 3850 0    79   ~ 0
-Boost Converter
 $EndSCHEMATC
