@@ -1,4 +1,4 @@
-17115419679879992
+17125009892303565
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -66997,6 +66997,27 @@ Coilcraft-MSD1278
 4
 4
 Rays Footprints
+Coilcraft-XAL4040
+
+
+0
+2
+2
+Rays Footprints
+Coilcraft-XFL4020
+
+
+0
+2
+2
+Rays Footprints
+Coilcraft-XGL6060
+
+
+0
+2
+2
+Rays Footprints
 Crystal_SMD_CSM7X
 
 
@@ -67010,6 +67031,13 @@ SMD SMT crystal
 0
 4
 4
+Rays Footprints
+DFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm-6mil-DRC
+DD Package; 14-Lead Plastic DFN (3mm x 3mm) (http://pdfserv.maximintegrated.com/land_patterns/90-0063.PDF)
+DFN 0.40
+0
+19
+15
 Rays Footprints
 DIP-6_W8.89mm_SMDSocket_LongPads
 
@@ -67281,8 +67309,8 @@ MP8862GQ
 
 
 0
-0
-0
+16
+16
 Rays Footprints
 MPU-6050
 
@@ -67529,6 +67557,13 @@ TRANS_SQJ461EP-T1-GE3
 9
 9
 Rays Footprints
+Texas_Instruments_RMW_QFN-12-2.5x2.5
+
+
+0
+12
+12
+Rays Footprints
 Thermistor-TDK-B5713S0xxxM0xx
 
 
@@ -67591,6 +67626,13 @@ Wurth-750318431_R00
 0
 14
 14
+Rays Footprints
+Wurth-750342557
+
+
+0
+8
+8
 Rays Footprints
 Wurth_750317114
 
