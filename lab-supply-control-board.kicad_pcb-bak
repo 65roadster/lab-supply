@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 25)
+    (drawings 24)
     (tracks 876)
     (zones 0)
     (modules 88)
@@ -4033,7 +4033,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5EE1CF57)
-    (at 134.3914 115.9256 90)
+    (at 135.4074 116.1542 90)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5EFA75FF)
@@ -4072,9 +4072,6 @@
     )
   )
 
-  (gr_text GND (at 137.4902 118.3894) (layer F.SilkS) (tstamp 5EE1D3C8)
-    (effects (font (size 1.27 1.27) (thickness 0.1778)) (justify right))
-  )
   (gr_text Tx (at 84.963 87.757 90) (layer F.SilkS) (tstamp 5ED89560)
     (effects (font (size 1.27 1.27) (thickness 0.1778)) (justify right))
   )
