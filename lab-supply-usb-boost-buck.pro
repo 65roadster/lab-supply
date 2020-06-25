@@ -1,4 +1,4 @@
-update=6/9/2020 6:53:45 PM
+update=6/19/2020 5:50:03 PM
 version=1
 last_client=pcbnew
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=lab-supply-usb-c.net
+LastNetListRead=lab-supply-usb-boost-buck.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=1
@@ -67,7 +67,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.0508
 SolderMaskMinWidth=0.2032
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

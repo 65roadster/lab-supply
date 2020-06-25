@@ -5,4 +5,7 @@
   (lib (name memory)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/memory_eeprom.lib)(options "")(descr ""))
   (lib (name lab-supply-control-board-rescue)(type Legacy)(uri ${KIPRJMOD}/lab-supply-control-board-rescue.lib)(options "")(descr ""))
   (lib (name KnoxMakers)(type Legacy)(uri C:/Users/ray/OneDrive/Projects/kicad/1-Symbols/KnoxMakers.lib)(options "")(descr ""))
+  (lib (name lab-supply-usb-buck-rescue)(type Legacy)(uri ${KIPRJMOD}/lab-supply-usb-buck-rescue.lib)(options "")(descr ""))
+  (lib (name lab-supply-usb-boost-buck-rescue)(type Legacy)(uri ${KIPRJMOD}/lab-supply-usb-boost-buck-rescue.lib)(options "")(descr ""))
+  (lib (name lab-supply-split-rail-rescue)(type Legacy)(uri ${KIPRJMOD}/lab-supply-split-rail-rescue.lib)(options "")(descr ""))
 )

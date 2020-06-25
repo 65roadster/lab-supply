@@ -15,6 +15,17 @@ Comment4 ""
 $EndDescr
 Text Notes 4800 5150 0    79   ~ 0
 -5V for minimum load
+$Comp
+L Rays_Symbols:MAX1719EUT U3
+U 1 1 5EDEAA46
+P 5400 5500
+F 0 "U3" H 5400 5687 60  0000 C CNN
+F 1 "MAX1719EUT" H 5400 5581 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" H 5400 5550 60  0001 C CNN
+F 3 "" H 6900 5450 60  0000 C CNN
+	1    5400 5500
+	1    0    0    -1  
+$EndComp
 Text GLabel 3900 5600 0    50   Input ~ 0
 +5V
 $Comp
@@ -30,6 +41,11 @@ F 3 "" H 4800 5900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4850 5800 4800 5800
+Wire Wire Line
+	4800 5700 4850 5700
+Wire Wire Line
+	4800 5700 4800 5800
+Connection ~ 4800 5800
 Wire Wire Line
 	4800 5800 4800 5900
 $Comp
@@ -226,7 +242,7 @@ $EndComp
 Wire Wire Line
 	4500 6250 4500 6200
 Wire Wire Line
-	4500 5600 4800 5600
+	4500 5600 4850 5600
 Connection ~ 4500 5600
 Wire Wire Line
 	4350 5600 4500 5600
@@ -1721,32 +1737,14 @@ Wire Wire Line
 Wire Wire Line
 	6950 2500 8400 2500
 $Comp
-L Jumper:SolderJumper_2_Bridged JP5
+L Jumper:SolderJumper_2_Bridged JP?
 U 1 1 5F120817
 P 3450 3700
-F 0 "JP5" H 3450 3905 50  0000 C CNN
+F 0 "JP?" H 3450 3905 50  0000 C CNN
 F 1 "SolderJumper_2_Bridged" H 3450 3814 50  0000 C CNN
-F 2 "Rays Footprints:SolderJumper_2_Pad_Bridged" H 3450 3700 50  0001 C CNN
+F 2 "" H 3450 3700 50  0001 C CNN
 F 3 "~" H 3450 3700 50  0001 C CNN
 	1    3450 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Rays_Symbols:MAX1719EUT U3
-U 1 1 5EDEAA46
-P 5400 5500
-F 0 "U3" H 5400 5687 60  0000 C CNN
-F 1 "MAX1719EUT" H 5400 5581 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" H 5400 5550 60  0001 C CNN
-F 3 "" H 6900 5450 60  0000 C CNN
-	1    5400 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 5700 4800 5700
-Wire Wire Line
-	4800 5700 4800 5600
-Connection ~ 4800 5600
-Wire Wire Line
-	4800 5600 4850 5600
 $EndSCHEMATC

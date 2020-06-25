@@ -1,4 +1,4 @@
-17125009892303565
+17131392016270048
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -67375,6 +67375,13 @@ Through hole pin header THT 1x05 2.54mm single row
 4
 4
 Rays Footprints
+Potentiometer_Vishay_TS53YJ_Vertical
+Potentiometer, vertical, Vishay TS53YJ, https://www.vishay.com/docs/51008/ts53.pdf
+Potentiometer vertical Vishay TS53YJ
+0
+3
+3
+Rays Footprints
 Push-Switch-Mom-Tactile-12x12-TS6211T2602AC-EV
 E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf
 Push Button
@@ -67392,6 +67399,13 @@ Rays Footprints
 R_0805_HandSoldering
 Resistor SMD 0805, hand soldering
 resistor 0805
+0
+2
+2
+Rays Footprints
+R_1206_HandSoldering
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
 0
 2
 2
@@ -67529,6 +67543,13 @@ SolderJumper_3_Pad
 3
 3
 Rays Footprints
+Speaker-40mm
+
+
+0
+2
+2
+Rays Footprints
 TO-220-3_Horizontal_Tab4
 TO-220-3, Horizontal, RM 2.54mm
 TO-220-3 Horizontal RM 2.54mm
@@ -67549,6 +67570,13 @@ D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
 0
 4
 3
+Rays Footprints
+TP-Minigrabber-Edge-Via
+
+
+0
+1
+1
 Rays Footprints
 TRANS_SQJ461EP-T1-GE3
 
